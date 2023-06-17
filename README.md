@@ -1,7 +1,6 @@
 # whatis-package
 Whatis for all manpages in a package
 
-
 ## Usage
 Usage: whatis_package.py \<package-name>  
 e.g. whatis_package.py gzip
@@ -26,4 +25,12 @@ zcat (1)             - compress or expand files
 zcmp (1)             - compare compressed files
 zegrep (1)           - search possibly compressed files for a regular expression
 zfgrep (1)           - search possibly compressed files for a regular expression
+```
+
+## Installation
+Paste following lines in your terminal
+```bash
+curl https://raw.githubusercontent.com/WingTillDie/whatis-package/main/whatis_package.py > ~/.local/bin/whatis_package.py
+echo '# Source: https://github.com/WingTillDie/whatis-package' >> ~/.local/bin/whatis_package.py
+chmod u+x ~/.local/bin/whatis_package.py
 ```
